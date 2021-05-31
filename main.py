@@ -7,9 +7,10 @@ grid = [
         [0,  1,  2,  3],
     ]
 
+visited_rooms = []
+player_pos = 0
+
 def main():
-    visited_rooms = []
-    player_pos = 0
 
     # while True: # not looping for testing purposes
     if player_pos not in visited_rooms:
