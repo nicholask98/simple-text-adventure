@@ -8,3 +8,4 @@ def determine_door_options():
         pass
 def prompt():
     return input('Which direction would you like to go?')
+    
